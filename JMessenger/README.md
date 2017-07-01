@@ -1,14 +1,14 @@
 JMessenger is a java chat application consisting :
 
-1. A server program
-2. A client program
-3. an interface to perform certain functions.
+1. A server
+2. Multiple clients
+3. A database to store user credentials & chats  
 
-I have attached 3 files,
+Contents of source code:
 Uback is server
 Uend is client
-third is interface.
-also a database(MS Access file).
+ReceiveMessageInterface is an contract for RMI methods.
+A database(MS Access file).
 Steps to setup:
 
     Compile all 3 files.
@@ -26,4 +26,3 @@ Steps to setup:
 
       5. U can see db updated.....now run 2 clients and show chat betwn them.
 
-If any problm, ask akshay or contact me. All d best!
